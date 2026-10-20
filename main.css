@@ -15,10 +15,17 @@ main {
     width: 100%;
     max-width: 1280px;
     min-height: 1336px;
-    padding: 48px 48px 64px;
+    padding-bottom: 64px;
     gap: 24px;
     background-color: #FCFCFC;
     margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+    gap: 24px;
 }
 
 header {
