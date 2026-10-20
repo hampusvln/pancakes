@@ -100,4 +100,26 @@ h1 {
     list-style-position: inside;
 }
 
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
 
+.suggestions h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.suggestion-images {
+    display: flex;
+    gap: 24px;
+}
+
+.suggestion-images img {
+    width: 580px;
+    height: 467px;
+    object-fit: cover;
+}
