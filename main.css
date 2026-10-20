@@ -74,3 +74,30 @@ h1 {
     line-height: 32px;
     list-style-position: inside;
 }
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.instructions h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.instructions p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.instructions ol {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    list-style-position: inside;
+}
+
+
