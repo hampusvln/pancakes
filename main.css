@@ -1,115 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: #A100004D;
-    padding-bottom: 64px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #a100004d;
+  padding-bottom: 64px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1280px;
-    min-height: 1336px;
-    padding-bottom: 64px;
-    gap: 24px;
-    background-color: #FCFCFC;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 1336px;
+  padding-bottom: 64px;
+  gap: 24px;
+  background-color: #fcfcfc;
+  margin: 0 auto;
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    padding: 0 48px;
-    gap: 24px;
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 48px;
+  gap: 24px;
 }
 
 header {
-    width: 100%;
-    height: 500px;
-    flex-shrink: 0;
-    border: 1px solid #FCFCFC;
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  border: 1px solid #fcfcfc;
 }
 
 header img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 100%;
-    color: #A10000;
-    margin-top: 24px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #a10000;
+  margin-top: 24px;
 }
 
 h2 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 .headline-description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
-    padding: 16px;
-    background-color: #EBEBEB;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  padding: 16px;
+  background-color: #ebebeb;
 }
 
 .ingredients {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .ingredients p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
 }
 
 .ingredients ul {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    list-style-position: inside;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  list-style-position: inside;
 }
 
 .instructions {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .instructions ol {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    list-style-position: inside;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  list-style-position: inside;
 }
 
 .suggestions {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
 }
 
 .suggestion-images {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .suggestion-images img {
-    width: 580px;
-    height: 467px;
-    object-fit: cover;
+  width: 580px;
+  height: 467px;
+  object-fit: cover;
 }
