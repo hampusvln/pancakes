@@ -65,7 +65,7 @@ h2 {
 }
 
 .ingredients,
-.ingredients {
+.instructions {
   display: flex;
   flex-direction: column;
   gap: 16px;
